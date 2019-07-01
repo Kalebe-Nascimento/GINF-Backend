@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+
+    
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <section class="signup">
+         
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" action="GinfServlet" id="signup-form" class="signup-form">
+                        <h2 class="form-title">Criando conta</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="nmNomeReal" id="name" placeholder="Seu Nome"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="dsEmail" id="email" placeholder="Seu Email"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="dsSenha" id="password" placeholder="Senha"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="re_password" id="re_password" placeholder="Repetir Senha"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span>
+                            </span>Eu concordo com todas as declarações em <a href="#" class="term-service">Termos de serviço</a></label>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Cadastrar"/>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                       Já tem uma conta? <a href="file:///C:/Users/marco/OneDrive/%C3%81rea%20de%20Trabalho/Fastfriend/Fastfriend/gamewarrior/Login/Login.html" class="loginhere-link">Entre aqui </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+  
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
